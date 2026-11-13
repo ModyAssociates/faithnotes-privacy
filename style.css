@@ -1,0 +1,45 @@
+:root {
+  color-scheme: dark;
+  --bg: #10151b;
+  --panel: #17202a;
+  --ink: #ede6da;
+  --soft: #b9b3a8;
+  --line: #2b3742;
+  --accent: #a8c0dc;
+}
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 6px; }
+h2 { font-size: 1.15rem; margin: 38px 0 10px; color: var(--accent); }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+.lede { color: var(--soft); margin: 0 0 28px; }
+.meta { color: var(--soft); font-size: 0.9rem; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 22px 0;
+}
+.card strong { color: var(--accent); }
+a { color: var(--accent); }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95rem; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--soft); font-weight: 600; }
+footer {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--soft);
+  font-size: 0.9rem;
+}
